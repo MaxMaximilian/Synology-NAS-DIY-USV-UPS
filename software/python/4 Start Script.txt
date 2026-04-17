@@ -1,0 +1,7 @@
+pidof -x shutdown_server.py > /dev/null || python3 /volume1/NAS/shutdown_script/shutdown_server.py &
+
+
+
+Note: edit the Path to your liking: /volume1/NAS/shutdown_script/shutdown_server.py
+
+
